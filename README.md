@@ -9,17 +9,18 @@ mean-variance optimization, and visualizes the efficient frontier, covariance
 matrix, and correlation matrix.
 
 ## Structure
-├── notebooks/
-│   └── analysis.ipynb   # covariance, correlation, efficient frontier
-├── src/
-│   ├── optimize.py      # portfolio optimization
-│   └── backtest.py      # backtesting
-├── outputs/             # saved charts
-├── requirements.txt
-└── README.md
+
+    quant-portfolio/
+    notebooks/
+        analysis.ipynb
+    src/
+        optimize.py
+        backtest.py
+    outputs/
+    requirements.txt
+    README.md
 
 ## Setup
-
 ```bash
 pip install -r requirements.txt
 ```
