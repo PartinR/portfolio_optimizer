@@ -9,16 +9,15 @@ mean-variance optimization, and visualizes the efficient frontier, covariance
 matrix, and correlation matrix.
 
 ## Structure
-
-    quant-portfolio/
-    notebooks/
-        analysis.ipynb
-    src/
-        optimize.py
-        backtest.py
-    outputs/
-    requirements.txt
-    README.md
+quant-portfolio/
+├── notebooks/
+│   └── analysis.ipynb
+├── src/
+│   ├── optimize.py
+│   └── backtest.py
+├── outputs/
+├── requirements.txt
+└── README.md
 
 ## Setup
 ```bash
